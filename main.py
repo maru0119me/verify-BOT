@@ -196,7 +196,7 @@ async def getuser_id(interaction):
 
 @tree.command(name="help", description="ヘルプを表示します。")
 async def bot_help(interaction: discord.Interaction):
-  message = "Created by Yukito // awakun_\n\nこのボットはReplitで稼働させているのでダウンタイムがあるかも知れません。\nちなみにこのボットは他のサーバーへ導入できません。"
+  message = "Created by Yukito // awakun_\n\nこのボットはもしかしたらダウンタイムがあるかも知れません。\nちなみにこのボットは他のサーバーへ導入できません。"
   await interaction.response.send_message(message, ephemeral=False)
 
 
