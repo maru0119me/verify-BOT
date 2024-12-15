@@ -33,7 +33,7 @@ tree = discord.app_commands.CommandTree(client)
 ipath = "userdata.json"
 ipath2 = "サーバーID: "
 
-BOT_TOKEN = os.environ['BOT_TOKEN']
+
 authurl = "https://discord.com/oauth2/authorize?client_id=1204424642199031870&redirect_uri=https://restorecord.com/api/callback&response_type=code&scope=identify+guilds.join&state=1204252157180649494"
 
 CUSTOM_COLOR = discord.Colour(int("90EE90", 16))
@@ -516,5 +516,5 @@ async def dck(interaction: discord.Interaction):
 
 
 
-client.run(BOT_TOKEN)
+client.run('MTMwNTQ2NzIyNDExNDU5Nzk2OQ.GS8Mvy.6UwqZiVDYUGMw-OUZANhpppFk1cnrJARDbVGO8')
 
