@@ -24,6 +24,9 @@ from threading import Thread
 run = "python site.py"
 language = "python3"
 
+load_dotenv()
+
+TOKEN = os.getenv("TOKEN")
 
 
 intents = discord.Intents.all()
