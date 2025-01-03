@@ -1,4 +1,4 @@
-#BY IQminecraft & Vex12853
+
 
 
 import requests
